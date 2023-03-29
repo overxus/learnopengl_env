@@ -1,5 +1,5 @@
 # 使用说明(限Windows环境)
-## 依赖
+## 环境依赖
 + Visual Studio 2022
 + cmake
 ## 使用方法
