@@ -22,6 +22,7 @@ target_link_libraries(
 	learn_opengl
 	opengl32
 	glfw3
+	assimp-vc143-mtd
 )
 
 target_include_directories(
