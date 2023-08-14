@@ -11,7 +11,7 @@
 #include <assimp/postprocess.h>
 
 #include <mesh.h>
-#include <shader.h>
+#include <xshader.h>
 
 #include <string>
 #include <fstream>
@@ -39,7 +39,7 @@ public:
     }
 
     // draws the model, and thus all its meshes
-    void Draw(Shader &shader)
+    void Draw(xShader &shader)
     {
         for(unsigned int i = 0; i < meshes.size(); i++)
             meshes[i].Draw(shader);
